@@ -11,6 +11,9 @@ namespace CylinderProject.Models
 
         private double _radius, _height;
 
+        public double Radius { get => _radius; set => _radius = value; }
+        public double Height { get => _height; set => _height = value; }
+
         public Cylinder(double radius, double height)
         {
             if (radius <= 0)
